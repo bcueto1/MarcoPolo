@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var restList: [Restaurant]!
+    var restList: [Restaurant] = []
     var randomRest: Restaurant!
     var gersi: Restaurant!
     var yakitoriTaisho: Restaurant!
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBarHidden = true
-        
+    
         createRestaurants()
         
         restList.append(gersi)
@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let DestViewController : RestaurantView = segue.destinationViewController as! RestaurantView
         DestViewController.restaurant = randomRest
+        DestViewController.thisRestList = restList
     }
     
     override func viewWillAppear(animated: Bool) {

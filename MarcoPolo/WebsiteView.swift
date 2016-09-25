@@ -38,6 +38,7 @@ class WebsiteView: UIViewController {
         let url = NSURL(string: urlStr)!
         let request = NSURLRequest(URL: url)
         
+        
         webView.loadRequest(request)
     }
 

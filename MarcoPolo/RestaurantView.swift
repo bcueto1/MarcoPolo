@@ -30,8 +30,12 @@ class RestaurantView: UIViewController {
     }
     
     @IBAction func marcoButtTap(sender: AnyObject) {
-        let random = Int(arc4random_uniform(UInt32(thisRestList.count)))
+        var random = Int(arc4random_uniform(UInt32(thisRestList.count)))
         restaurant = thisRestList[random]
+        
+        restaurantLbl.text = restaurant.name
+        typeLbl.text = restaurant.type
+        flagImg.image = restaurant.restFlag()
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
