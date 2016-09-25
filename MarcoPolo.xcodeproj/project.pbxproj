@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		D3EB19101D97693D0026A261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB190F1D97693D0026A261 /* AppDelegate.swift */; };
-		D3EB19121D97693D0026A261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB19111D97693D0026A261 /* ViewController.swift */; };
 		D3EB19151D97693E0026A261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EB19131D97693E0026A261 /* Main.storyboard */; };
 		D3EB19171D97693E0026A261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EB19161D97693E0026A261 /* Assets.xcassets */; };
 		D3EB191A1D97693E0026A261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EB19181D97693E0026A261 /* LaunchScreen.storyboard */; };
+		D3EB19221D97709A0026A261 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3EB19211D97709A0026A261 /* CaviarDreams.ttf */; };
+		D3EB19241D9772BF0026A261 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3EB19231D9772BF0026A261 /* CaviarDreams_Bold.ttf */; };
+		D3EB19261D97BC1F0026A261 /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB19251D97BC1F0026A261 /* WebsiteView.swift */; };
+		D3EB19281D97BF100026A261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB19271D97BF100026A261 /* ViewController.swift */; };
+		D3EB192A1D9807B90026A261 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB19291D9807B80026A261 /* MenuView.swift */; };
+		D3EB192C1D980CB30026A261 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB192B1D980CB30026A261 /* RestaurantView.swift */; };
+		D3EB192E1D980D9F0026A261 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB192D1D980D9F0026A261 /* Restaurant.swift */; };
+		D3EB19321D9824760026A261 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB19311D9824760026A261 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3EB190C1D97693D0026A261 /* MarcoPolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarcoPolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EB190F1D97693D0026A261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3EB19111D97693D0026A261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3EB19141D97693E0026A261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3EB19161D97693E0026A261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EB19191D97693E0026A261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3EB191B1D97693E0026A261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EB19211D97709A0026A261 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		D3EB19231D9772BF0026A261 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		D3EB19251D97BC1F0026A261 /* WebsiteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		D3EB19271D97BF100026A261 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3EB19291D9807B80026A261 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D3EB192B1D980CB30026A261 /* RestaurantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		D3EB192D1D980D9F0026A261 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		D3EB19311D9824760026A261 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +69,17 @@
 			isa = PBXGroup;
 			children = (
 				D3EB190F1D97693D0026A261 /* AppDelegate.swift */,
-				D3EB19111D97693D0026A261 /* ViewController.swift */,
+				D3EB19271D97BF100026A261 /* ViewController.swift */,
+				D3EB19291D9807B80026A261 /* MenuView.swift */,
+				D3EB19251D97BC1F0026A261 /* WebsiteView.swift */,
 				D3EB19131D97693E0026A261 /* Main.storyboard */,
+				D3EB192B1D980CB30026A261 /* RestaurantView.swift */,
+				D3EB19311D9824760026A261 /* Food.swift */,
+				D3EB192D1D980D9F0026A261 /* Restaurant.swift */,
 				D3EB19161D97693E0026A261 /* Assets.xcassets */,
 				D3EB19181D97693E0026A261 /* LaunchScreen.storyboard */,
+				D3EB19211D97709A0026A261 /* CaviarDreams.ttf */,
+				D3EB19231D9772BF0026A261 /* CaviarDreams_Bold.ttf */,
 				D3EB191B1D97693E0026A261 /* Info.plist */,
 			);
 			path = MarcoPolo;
@@ -124,6 +145,8 @@
 			files = (
 				D3EB191A1D97693E0026A261 /* LaunchScreen.storyboard in Resources */,
 				D3EB19171D97693E0026A261 /* Assets.xcassets in Resources */,
+				D3EB19241D9772BF0026A261 /* CaviarDreams_Bold.ttf in Resources */,
+				D3EB19221D97709A0026A261 /* CaviarDreams.ttf in Resources */,
 				D3EB19151D97693E0026A261 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3EB19121D97693D0026A261 /* ViewController.swift in Sources */,
+				D3EB19321D9824760026A261 /* Food.swift in Sources */,
+				D3EB19281D97BF100026A261 /* ViewController.swift in Sources */,
+				D3EB192A1D9807B90026A261 /* MenuView.swift in Sources */,
+				D3EB192E1D980D9F0026A261 /* Restaurant.swift in Sources */,
+				D3EB19261D97BC1F0026A261 /* WebsiteView.swift in Sources */,
+				D3EB192C1D980CB30026A261 /* RestaurantView.swift in Sources */,
 				D3EB19101D97693D0026A261 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +314,7 @@
 				D3EB19201D97693F0026A261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
